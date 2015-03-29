@@ -54,4 +54,9 @@ public class CucumberStepsDefenitions {
         scenario.write("<a href=\"http://tut.by\" target=\"blank\">Tut.by</a>");
     }
 
+    @After
+    public void afterScenarioSecond(Scenario scenario) {
+        scenario.write("One more after scenario.");
+    }
+
 }
